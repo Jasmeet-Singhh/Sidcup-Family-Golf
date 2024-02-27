@@ -1010,3 +1010,71 @@ video {
     }
 
 }
+
+@media (max-width: 830px) {
+    #about{
+     display: flex;
+     flex-direction: column;
+    }
+
+    #cards-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about {
+        display: flex;
+        margin-top: 14rem;
+        margin-bottom: 14rem;
+        width: 100%;
+        align-items: center;
+        padding: 30px 50px;
+        /* background-color: red; */
+        position: relative;
+        z-index: 10;
+    }
+
+    #about img {
+        height: 250px;
+        width: 80%;
+        border-radius: 10px;
+        object-fit: cover;
+        margin-bottom: 1rem;
+    }
+
+    .card {
+        height: 120%;
+        width: 60%;
+        background-color: #95c11e;
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        transition: all ease 0.6s;
+    }
+    
+    #cards-container {
+        height: 80vh;
+        width: 100%;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        position: relative;
+        z-index: 10;
+        margin-bottom: 2rem;
+    }
+
+    #page4 h1{
+        position: absolute;
+        font-size: 50px;
+        top: 40px;
+        color: black;
+        -webkit-text-stroke: 2px white;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+    
+    
+}
